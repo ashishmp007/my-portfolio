@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #111;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a:hover {
+  color: #00aaff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content span {
+  color: #00aaff;
+}
+
+.content p {
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.scroll-down {
+  display: inline-flex;
+  align-items: center;
+  background-color: #00aaff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.scroll-down:hover {
+  background-color: #008fcc;
+}
+
+.download-icon {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+
+.profile-img img {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+/* Info Cards */
+.info-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #00aaff;
+  margin-bottom: 1rem;
+}
+
+.card .btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: #00aaff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+}
